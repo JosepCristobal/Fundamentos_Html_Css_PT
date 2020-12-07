@@ -1,16 +1,59 @@
-.center {
+
+  .logo:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  body{
+    background-color: lightsteelblue;
+  }
+  
+  .logo{
+    display: block;
+    position: absolute;
+    left: 80%;
+    top: 0%;
+    padding: 1rem;
+  }
+
+  .main{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #FFFF00;
-    padding: 10px;
-  
+    border: 2px solid lightblue;
+    padding: 0rem 1rem 1rem 1rem;
   }
 
-  /*Pruebas con flex*/
-  .centerFlex {
-    align-items: center;
+  .title1{
+    color: darkblue;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+    padding:1rem 0rem 1rem 0rem;
+    margin: 0rem;
+  }
+
+  form .login-data {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type='submit'] {
+    padding: 0.5rem;
+    font-size: 1.1rem white;
+    min-width: 10rem;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    background: darkblue;
+    
+  
+    
   }
