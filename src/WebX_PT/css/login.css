@@ -7,3 +7,10 @@
     padding: 10px;
   
   }
+
+  /*Pruebas con flex*/
+  .centerFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
