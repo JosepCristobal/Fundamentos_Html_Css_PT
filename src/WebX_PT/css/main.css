@@ -1,0 +1,10 @@
+.body-main {
+    margin-top: var(--navbar-height);
+    padding-top: var(--navbar-height);
+    padding-bottom: 3rem;
+  }
+
+.seccion{
+    padding: 1rem;
+}
+

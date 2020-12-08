@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/global.css" />
     <title>Pantalla principal VT ELPPA</title>
 </head>
-<body>
+<body class="body-main">
     <div>
         <nav id="navbar-main" class="navbar">
             <div>
@@ -17,41 +17,98 @@
             <label for="burger-checkbox" class="burger-label"></label>
 
             <ul class="navbar-list">
-                 <!-- <li><a href="#inicio" class="navItem">Inicio</a></li> -->
                 <li class="navbar-item"><a href="./main.html" class="navItem">Inicio</a></li>
-                <li class="navbar-item"><a href="#novedades" class="navItem">Novedades</a></li>
-                <li class="navbar-item"><a href="#series" class="navItem">Series</a></li>
+                <li class="navbar-item"><a href="#novedades"+3rem class="navItem">Novedades</a></li>
+                <li class="navbar-item"><a href="#series"-3rem class="navItem">Series</a></li>
                 <li class="navbar-item"><a href="#peliculas" class="navItem">Peliculas</a></li>
                 <li class="navbar-item"><a href="#favoritos" class="navItem">Favoritos</a></li>
                 <li class="navbar-item"><a href="./detail.html" class="navItem" target="_self">Detalle</a></li>
-                <input id="srchbar" type="search" placeholder="Search">
-
+                
+                <form 
+                    action="./main.html"
+                    method="GET"
+                    name="search-bar"
+                    id="search-bar"
+                    class="form-bar">
+                    <input class="srchbar" id="srchbar" type="search" placeholder="Search">
+                    <!-- <input class="btn-search" type="submit" value=""> -->
+                    <input class="btn-search" type="image" src="./img/buscar2.png" alt="Submit">
+                    <a href="./index.html" title="Close" class="close-inicio"><img class="img-salir" src="./img/salir.png" alt="Salir"></a>
+                </form>
             </ul>
         </nav>
     </div>  
     <header id="inicio">Encabezado</header>
 
     <main>
-        <section id="novedades" class="item">
+        <section class="seccion" id="novedades" class="item">
             <h1>Novedades</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab culpa dolores sequi earum obcaecati autem nobis amet? Voluptatem illo, labore aliquam nisi quam distinctio fugiat, facilis eum quia optio ipsam.</p>
+            <div>
+                <ul>
+                    <li>
+                        <a href="./detail.html" title="Detalle" class="link-detalle"><img class="img-detalle" src="./img/747340_p.jpg" alt="Detalle"></a>
+                        <a href="./detail.html" title="Detalle" class="link-detalle"><img class="img-detalle" src="./img/799722_p.jpg" alt="Detalle"></a>
+                        <a href="./detail.html" title="Detalle" class="link-detalle"><img class="img-detalle" src="./img/863758_p.jpg" alt="Detalle"></a>
+                        <a href="./detail.html" title="Detalle" class="link-detalle"><img class="img-detalle" src="./img/865061_p.jpg" alt="Detalle"></a>
+                        <a href="./detail.html" title="Detalle" class="link-detalle"><img class="img-detalle" src="./img/867454_p.jpg" alt="Detalle"></a>
+                    </li>
+                </ul>
+                
+            </div>
         </section>
 
-        <section id="series">
+        <section class="seccion" id="series">
             <h1>Series</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed aliquam odit, eos ea exercitationem? Quos, aliquid at ipsam doloribus repellendus sed, neque ea aperiam in dolorum dolore ullam! Distinctio?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam neque amet libero nemo cupiditate ex sit nisi? Dolore, facere maiores perferendis id quam quae, ab consectetur accusamus non, dolor illum.
+            Ad neque cumque eaque laborum eveniet voluptates dolorum illo obcaecati accusamus nobis, sunt laudantium esse corporis vitae consequatur porro, ipsam molestiae. Quas eos sint unde accusantium ad, animi odio atque!
+            Autem cumque aspernatur facilis praesentium dolores vitae quibusdam? Vel quis rerum dolorem facilis odio id itaque quod reiciendis corrupti ipsam. Voluptatibus delectus esse, reprehenderit rem optio voluptate veritatis recusandae id.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate expedita quae, beatae quidem deserunt eligendi. Veritatis tenetur dolores autem molestiae dolore, provident similique? Totam, consequuntur officia? Quis soluta cum eos.
+                Ipsum deleniti dolore velit eaque aspernatur excepturi vitae quam quia ullam cumque similique temporibus adipisci vero doloremque nobis sint veritatis, hic aliquid saepe beatae maxime quisquam dolores eligendi laboriosam? Quidem.
+                Ipsum, distinctio eum qui sit ab, dolor itaque consectetur minima commodi quibusdam vitae illum accusamus asperiores numquam dignissimos sapiente quas. A perferendis ad eum facilis dolor nesciunt explicabo officiis expedita!
+                Necessitatibus minus fuga, rem ullam, ipsa esse, dignissimos velit veritatis magnam facere aut voluptatem totam quas fugiat consequatur incidunt facilis ex! Cupiditate, provident beatae natus animi nesciunt hic iusto libero!
+                Dolore ullam, accusantium sapiente autem dignissimos nihil eius quibusdam ducimus voluptates, adipisci iusto ut nisi blanditiis sint fuga nobis minus repellendus earum itaque maiores nemo. Fuga, consequuntur? Aut, omnis tempora!
+                Corporis quibusdam recusandae odio sunt, nihil ex architecto temporibus ab impedit laborum consequatur doloremque at qui ut quae asperiores nam magnam accusamus placeat? Eos possimus similique veritatis nostrum temporibus quae.</p>
+
         </section>
 
-        <section id="peliculas">
+        <section class="seccion" id="peliculas">
             <h1>Peliculas</h1>
-
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic harum ad eum minus repellat, accusamus enim rerum assumenda quos officiis. Repudiandae ipsum esse nemo maxime eligendi corrupti asperiores distinctio?
+                Quos incidunt libero tenetur cum necessitatibus, natus quis magni suscipit eligendi, iure itaque velit repellendus molestias earum numquam. Perspiciatis eligendi aperiam quo maiores culpa corrupti minus error voluptate unde. Natus.
+                Inventore voluptatem deserunt repudiandae corrupti ratione dignissimos ea nobis commodi rerum pariatur deleniti, totam sapiente corporis obcaecati quibusdam odit, similique, quo incidunt explicabo? Optio, iure aut consectetur voluptate quibusdam nesciunt.
+                Tempore asperiores placeat aliquam tempora unde. Veritatis totam pariatur molestiae eaque, ab fugit qui quam excepturi fuga id eveniet officiis at fugiat magni explicabo quasi ipsam quos? Necessitatibus, ad totam?
+                Vel odio eaque omnis id tenetur totam, repudiandae distinctio enim modi ipsum unde fuga porro natus facere suscipit nemo architecto, sit laboriosam culpa impedit sapiente exercitationem ipsam. Distinctio, delectus animi!
+                Aut voluptate nam recusandae, excepturi, similique obcaecati nisi maxime ea ut consectetur consequatur libero voluptatibus est qui, molestiae rem delectus eveniet a animi nobis dolorem fugiat voluptatem. Dolore, tenetur voluptatem.
+                Exercitationem, vel? Natus ducimus et quasi, eveniet delectus quae aut velit soluta assumenda, aperiam esse culpa non tempora autem nisi mollitia similique vel quam. Vel voluptatum commodi dolores harum corrupti.
+                Pariatur possimus laboriosam magnam quae amet tenetur laborum molestiae omnis rem accusamus, quasi recusandae ea quibusdam assumenda officia labore, accusantium adipisci cupiditate praesentium enim laudantium. Architecto fuga excepturi maxime alias.
+                Provident sint quae veniam dolore id, quos vitae quasi impedit explicabo rem esse eligendi magnam molestias officiis unde? Debitis dicta quasi ad tempore corrupti consequatur nemo rem officia optio perspiciatis.
+                Natus sequi, repellendus ad dolore veritatis quam mollitia maxime quasi fugit inventore quia voluptates accusamus sit eaque quae ab quos. Inventore architecto nostrum harum odit nemo repellendus modi delectus accusamus.</p>
         </section>
 
-        <section id="favoritos">
+        <section class="seccion" id="favoritos">
         <h1>Favoritos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit blanditiis laboriosam commodi modi vel totam quod ab numquam dignissimos beatae autem nemo culpa repellendus doloremque, corrupti ratione, consequatur ea. Suscipit?
+            Voluptate aliquid recusandae eum, quis similique maiores quaerat voluptas ad velit deleniti hic assumenda esse. Tempora debitis, neque incidunt nesciunt accusantium mollitia corrupti, illo atque assumenda, nam minus iste temporibus.
+            Iure ad error rem. Pariatur, molestias culpa labore quo deleniti numquam quas, maiores ab maxime sequi laborum quod ad quae! Praesentium ipsum nulla placeat facere. Odit aut eveniet deleniti incidunt.
+            Magni architecto consequuntur, provident obcaecati quos, recusandae, beatae vel fuga perspiciatis eaque ea quae ipsam consectetur consequatur praesentium incidunt laudantium eum reiciendis officiis accusantium laboriosam iusto? Perspiciatis eaque quae ut?
+            Provident laboriosam ex aliquid saepe quasi blanditiis impedit corrupti est repellat nam sit unde, quia temporibus ad, modi autem accusantium maxime nulla. Dignissimos totam mollitia nisi dolorum repellendus facilis animi?
+            Quo excepturi cupiditate rem placeat ab quidem dicta iure, praesentium veritatis possimus laboriosam, atque unde magni numquam delectus perspiciatis nulla accusantium? Esse tempora ducimus distinctio magnam nihil omnis provident sint.
+            Rem quidem magni ipsa nisi ut eius ex ducimus. Autem, sapiente ipsa omnis deleniti suscipit nihil quaerat, consectetur et dolor veniam iste nostrum error. Beatae optio nisi blanditiis tenetur reiciendis!
+            Maiores laudantium voluptatum quod nemo, tempora praesentium doloribus ipsa optio possimus. Odit ad necessitatibus quis neque cumque temporibus esse, harum corrupti unde iusto, blanditiis distinctio laudantium. Officiis consectetur reiciendis quod?
+            Veritatis dolor facilis sint laboriosam esse corporis itaque assumenda doloribus quasi! Enim voluptatum laborum architecto autem libero quos maxime tenetur nobis mollitia sequi illum, deserunt praesentium aut minus quo fugit!
+            Explicabo voluptatum dignissimos iure quas, fugit eligendi numquam nisi itaque eveniet quis ipsa quia aliquam ipsam nesciunt adipisci eaque veniam tempore! Et blanditiis aliquam perferendis quaerat reiciendis architecto autem eum!
+            Voluptate laboriosam dolores eveniet odit dolorem magnam maiores iste? Quis, iure corrupti, iste aperiam cum alias impedit iusto, unde amet obcaecati delectus. Possimus non voluptatem, distinctio molestias fugit at consequatur!
+            Numquam, ipsa quidem commodi incidunt assumenda atque impedit voluptates officiis amet, veritatis illum omnis molestiae quam, non voluptas quaerat aperiam! Rerum illum minima amet ab a voluptas cum, corporis architecto.
 
+            </p>
         </section>
 
     </main>
 
-    <footer>Pie de página</footer>
+    <footer class="footer">
+        <p>Todos los derechos reservados</p> 
+    </footer>
 </body>
 </html>
