@@ -5,53 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/modal.css">
     <title>Login The best films</title>
 </head>
 <body>
-    <main>
-        <h1>Acceso a Films</h1>
-        <form 
-        action="./main.html"
-        method="GET"
-        name="login-form"
-        id="login-form"
-        class="login-form"
-        >
-        <div class="login-data">
-            <img src="./img/Logo_150_103_02.png" alt="Logo">
-            <p>
-                <label for="username">Nombre de Usuario:</label>
-                <input type="email" id="username" name="username" placeholder="User Name" required><br/>
-            </p>
-            <p>
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" placeholder="*******" required><br>
-            </p>
-            <p>
-                <input type="checkbox" id="savepass" value="save_password"><label for="savepass">Recordar la contraseña</label>
-            </p>
-        </div>
-        <p class="actions">
-            <input type="submit" value="Registrar">
-        </p>
-    </form>
-    <div>
-        <a href="#username">He olvidado la contraseña</a>
+    <div class="logo">
+        <img src="./img/Logo_150_103_02.png" alt="Logo">
     </div>
+    <main class="main">
+        <h1 class="title1">Acceso a Films</h1>
+        <form 
+            action="./main.html"
+            method="GET"
+            name="login-form"
+            id="login-form"
+            class="login-form">
+
+            <div class="login-data">
+                <p>
+                    <label class="labellogin" for="username">Usuario:</label>
+                    <input type="email" id="username" name="username" placeholder="Usuario"  required><br/>
+                </p>
+                <p>
+                    <label class="labellogin" for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" placeholder="*******" required><br>
+                </p>
+                <p>
+                    <input class="check0" type="checkbox" id="savepass" value="save_password">
+                    <label class="lblcheck" for="savepass">Recordar la contraseña</label>
+                </p>
+            </div>
+            <p class="actions">
+                <input type="submit" value="Registrar">
+            </p>
+        </form>
+        
+        <div class="remember">
+            <a class="remember-link" href="#openModal">He olvidado la contraseña</a>
+        </div>
 
     </main>
-    <footer>
+    <div id="openModal" class="modalDialog">
+        <div>
+            <form 
+                action="#username"
+                method="GET"
+                name="recupera-form"
+                id="recupera-form"
+                class="recupera-form">
+                <a href="#username" title="Close" class="close">X</a>
+                <h2 class="recupera-psw">Recuperar la contraseña</h2>
+                <p>
+                    <label class="labellogin" for="email-name">Introduzca e-mail:</label><br/>
+                    <input type="email" id="email-name" name="email-name" placeholder="e-mail"  required><br/>
+                </p>
+                <p>
+                    <label class="labellogin" for="email-name2">Repita e-mail:</label><br/>
+                    <input type="email" id="email-name2" name="email-name2" placeholder="repita e-mail"  required><br/>
+                </p>
+                <p>Prara recuperar la contraseña deberá introducir su cuenta de correo con la que se registró en este sitio.</p>
+                <p>Una vez valide, recibirá un correo con su nueva contraseña.</p>
+                <p>Gracias por utilizar nuestos servicios.</p>
 
+                <p class="actions2">
+                    <input type="submit" value="Recuperar">
+                </p>       
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
 
     </footer>
-    <div class="center">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Iusto, laboriosam facere pariatur sed optio dolores earum ducimus incidunt, 
-            placeat quae aliquid perspiciatis quidem architecto vero possimus nostrum eveniet modi laborum!</p>
-    </div>
-
-     <!-- <a href="./main.html" class="navItem" target="_self"><img src="./img/747340_p.jpg" alt="Bohemian"></a>
-    <img src="./img/799722_p.jpg" alt="Maradona">
-    <img src="./img/873479_p.jpg" alt="No ho sé"> -->
+    
 </body>
+
 </html>
