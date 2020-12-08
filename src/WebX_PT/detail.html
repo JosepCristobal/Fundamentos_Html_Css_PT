@@ -6,21 +6,39 @@
     <link rel="stylesheet" href="./css/global.css" />
     <title>Detalle de peliculas</title>
 </head>
-<body>
+<body class="body-detail">
   <div>
-    <nav >
-      <ul class="container">
-          <!-- <li><a href="#inicio" class="navItem">Inicio</a></li>  -->
-          <li><a href="./main.html" class="navItem">Inicio</a></li>
-          <li><a href="#novedades" class="navItem">Novedades</a></li>
-          <li><a href="#series" class="navItem">Series</a></li>
-          <li><a href="#peliculas" class="navItem">Peliculas</a></li>
-          <li><a href="#favoritos" class="navItem">Favoritos</a></li>
-          <li><a href="./detail.html" class="navItem" target="_self">Detalle</a></li>
-          <input id="srchbar" type="search" placeholder="Search">
+    <nav id="navbar-detail" class="navbar">
+      <div>
+          <img class="logo-main" src="./img/Logo_150_103_02.png" alt="Logo Films">
+      </div>
 
+      <input type="checkbox" id="burger-checkbox_detail" />
+      <label for="burger-checkbox" class="burger-label"></label>
+
+      <ul class="navbar-list">
+          <li class="navbar-item"><a href="./main.html" class="navItem">Inicio</a></li>
+          <li class="navbar-item"><a href="#novedades" class="navItem">Novedades</a></li>
+          <li class="navbar-item"><a href="#series" class="navItem">Series</a></li>
+          <li class="navbar-item"><a href="#peliculas" class="navItem">Peliculas</a></li>
+          <li class="navbar-item"><a href="#favoritos" class="navItem">Favoritos</a></li>
+          <li class="navbar-item"><a href="./main.html" title="Close" class="close-inicio"><img class="img-salir" src="./img/retroceso.png" alt="Salir"></a></li>
+
+          
+          <!-- <form 
+              action="./main.html"
+              method="GET"
+              name="search-bar"
+              id="search-bar-detail"
+              class="form-bar">
+              <input class="srchbar" id="srchbar-detail" type="search" placeholder="Search">
+              <input class="btn-search" type="submit" value=""> 
+              <input class="btn-search" type="image" src="./img/buscar2.png" alt="Submit">
+              <a href="./index.html" title="Close" class="close-inicio"><img class="img-salir" src="./img/salir.png" alt="Salir"></a>
+          </form> -->
       </ul>
   </nav>
+
   </div>
     
   <!-- <div>
