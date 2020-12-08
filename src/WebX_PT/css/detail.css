@@ -1,0 +1,5 @@
+.body-detail {
+    margin-top: var(--navbar-height);
+    padding-top: var(--navbar-height);
+    padding-bottom: 3rem;
+  }
