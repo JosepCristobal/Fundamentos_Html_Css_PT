@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .height-100vh {
+  height: 100vh;
+  background: lightgrey;
+}
+
+.center-aligned {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  opacity: .3;
+  width: 100%;
+  object-fit:cover; 
+  height: 100%;
+}
+
+.text {
+  position: absolute;
+  color: white;
+  font-family:  'Gill Sans', 'Gill Sans MT';
+  background: darkcyan;
+  padding: 20px;
+}
+</style>
+
+</head>
+<body>
+    <section class="height-100vh center-aligned">
+        <img class="background-image" src="https://www.humanesociety.org/sites/default/files/styles/768x326/public/2018/08/kitten-440379.jpg?h=f6a7b1af&itok=vU0J0uZR" />
+        <div class="text">I'm in center</div>
+    </section>
+    <section class="height-100vh center-aligned">
+      <img class="background-image" src="https://www.humanesociety.org/sites/default/files/styles/768x326/public/2018/08/kitten-440379.jpg?h=f6a7b1af&itok=vU0J0uZR" />
+      <div class="text">I'm in center</div>
+  </section>
+  <section class="height-100vh center-aligned">
+    <img class="background-image" src="https://www.humanesociety.org/sites/default/files/styles/768x326/public/2018/08/kitten-440379.jpg?h=f6a7b1af&itok=vU0J0uZR" />
+    <div class="text">I'm in center</div>
+</section>
+</body>
+</html>
