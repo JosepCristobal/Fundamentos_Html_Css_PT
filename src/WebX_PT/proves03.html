@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+            /* padding: 1rem; */
+
+  align-items: flex-start;
+        }
+        .img-detalle{
+            height: 500px;
+            width: fit-content;  
+            align-self: stretch;
+            /* align-self: center; */
+            padding: 0.5rem;
+            object-fit: cover;
+            object-position: center top;
+        }
+        .imagen-ppal{
+            height: 500px;
+            align-items: stretch;
+            
+            object-fit: cover;
+            object-position: center top;
+        }
+        .img-detalle{
+            height: 500px;
+            width: 400px;
+            align-self: stretch;
+            /* align-items: center;  */
+            padding: 0.5rem;
+            object-fit: cover;
+            object-position: center top;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <section class="seccion" id="favoritos">
+        <h1>Favoritos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit blanditiis laboriosam commodi modi vel totam quod ab numquam dignissimos beatae autem nemo culpa repellendus doloremque, corrupti ratione, consequatur ea. Suscipit?</p>
+        
+            <div class="flexbox-container">
+                <div class="imagen-ppal">
+                    <a href="./detail.html" title="Detalle" class="link-detalle" target="_self"><img class="img-detalle" src="./img/873407_p.jpg" alt="Detalle">
+                    
+                </a>
+                </div>
+                <div class="imagen-ppal">
+                    <a href="./detail.html" title="Detalle" class="link-detalle" target="_self"><img class="img-detalle" src="./img/873478_p.jpg" alt="Detalle"></a>
+                    <!-- <div class="texto-imagen">t, amet sunt autem quos? Eum blanditiis qui magnam!</div> -->
+                </div>
+                <div class="imagen-ppal">
+                    <a href="./detail.html" title="Detalle" class="link-detalle" target="_self"><img class="img-detalle" src="./img/873479_p.jpg" alt="Detalle"></a>
+                    <!-- <div class="texto-imagen"> quos? Eum blanditiis qui magnam!</div> -->
+                </div>
+                <div class="imagen-ppal">
+                    <a href="./detail.html" title="Detalle" class="link-detalle" target="_self"><img class="img-detalle" src="./img/747340_p.jpg" alt="Detalle"></a>
+                    <!-- <div class="texto-imagen"> quos? Eum blanditiis qui magnam!</div> -->
+                </div>
+                <div class="imagen-ppal">
+                    <a href="./detail.html" title="Detalle" class="link-detalle" target="_self"><img class="img-detalle" src="./img/869408_p.jpg" alt="Detalle"></a>
+                    <!-- <div class="texto-imagen"> quos? Eum blanditiis qui magnam!</div> -->
+                </div>
+            </div>
+        </section>
+
+
+</body>
+</html>

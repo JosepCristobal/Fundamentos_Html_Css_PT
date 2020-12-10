@@ -9,10 +9,10 @@
 }
 
 .div-carrusel{
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1rem; */
+  padding: 1rem;
 }
 /* .carrusel-lista{
   display: flex;
@@ -24,10 +24,9 @@
 .carrusel-elementos{
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
-  /* padding: 1rem; */
-
-  align-items: flex-start;
+  justify-content: space-between;
+  flex-basis: 50%;
+  align-self: stretch;
 }
 
 
@@ -57,45 +56,12 @@
   
   object-fit: cover;
   object-position: center top;
-
 }
-.favorito{
-  color: red;
-  visibility: visible;
-  opacity: 1;
-  position: relative;
-  display: inline-block;
-  overflow: scroll;
-  text-align: left;
-  /* padding: 1rem;
-  margin: 1rem; */
-  bottom: 90%;
-  right: 20%;
-  background-color: lightyellow;
-  opacity: 80%;
-  width: 2rem;
-  height: 2rem;
-  transform: translate(1080%, -1485%);
-}
-.favorito:hover{
-  transition: 1s;
-  opacity: 0;
-}
-
 .img-detalle{
   height: 500px;
   width: 400px;
   /* align-self: stretch; */
-  align-items: center; 
-  padding: 0.5rem;
-  object-fit: cover;
-  object-position: center top;
-}
-.detalle{
-  height: 500px;
-  width: 400px;
-  /* align-self: stretch; */
-  align-items: center; 
+  align-self: center; 
   padding: 0.5rem;
   object-fit: cover;
   object-position: center top;
@@ -105,7 +71,7 @@
   visibility: visible;
   opacity: 0;
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   overflow: scroll;
   text-align: left;
   padding: 1rem;
@@ -127,7 +93,5 @@
 
 strong{
   font-weight: bold;
-  font-size: 1.2rem;
-  text-decoration: underline;
-  
+  font-stretch: wider;
 }
