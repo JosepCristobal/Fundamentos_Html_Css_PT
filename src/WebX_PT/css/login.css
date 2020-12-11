@@ -27,6 +27,7 @@
     margin: 0rem;
     background-color: white;
     opacity: 70%;
+    border-radius: 12px;
   }
 
   .title1{
@@ -37,6 +38,8 @@
     background-color: lightgray;
     padding:1rem 0rem 1rem 0rem;
     margin: 0rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
   }
 
 

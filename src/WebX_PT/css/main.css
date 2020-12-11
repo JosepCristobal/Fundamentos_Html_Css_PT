@@ -1,5 +1,5 @@
 .body-main {
-    margin-top: var(--navbar-height);
+    /* margin-top: var(--navbar-height); */
     padding-top: var(--navbar-height);
     padding-bottom: 3rem;
   }
@@ -8,12 +8,13 @@
     padding: 1rem;
 }
 
-.div-carrusel{
-  /* display: flex;
+/* .div-carrusel{
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1rem; */
-}
+  padding: 1rem;
+} */
+
 /* .carrusel-lista{
   display: flex;
   flex-direction: column;
@@ -116,12 +117,12 @@
   color: white;
   width: 300px;
   height: 400px;
-  transform: translate(0%, -120%);
+  transform: translate(0%, -115%);
 }
 
 .texto-imagen:hover {
   visibility: visible;
-  transition: 1s;
+  transition: 2s;
   opacity: 0.8;
 }
 
