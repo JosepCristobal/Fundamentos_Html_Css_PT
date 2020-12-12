@@ -142,7 +142,8 @@
       text-align: left;
       margin-top: 0rem;
       padding: 0 1rem;
-      font-size: 2rem;
+      font-size: 1rem;
+      size: 20;
       }
     
     .btn-search{
@@ -160,9 +161,7 @@
     }
     
   }
-  
-  
-  
+
 
   @media (min-width: 768px) and (max-width: 900px) {
     .navbar .logo {
