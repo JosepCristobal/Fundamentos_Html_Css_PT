@@ -1,13 +1,11 @@
 .navbar {
     position: fixed;
-    /* background-color: #fff; */
     background-color:rgb(95, 97, 230);
     width: 100%;
     top: 0;
     left: 0;
     height: var(--navbar-height);
     z-index: 99999;
-    /* border: solid 5px darkblue; */
   }
 
 .logo-main{
@@ -19,16 +17,16 @@
 #burger-checkbox {
     display: none;
   }
+#burger-checkbox-detail{
+  display: none;
+}
   
   .burger-label {
-    /* background-color: red; */
     position: absolute;
     top: 0;
     left: 0;
     width: 3rem;
     height: 3rem;
-    /* no es necesario para dispositivo táctil */
-    /* cursor: pointer; */
   }
   
   .burger-label:before {
@@ -56,15 +54,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* align-items: center; */ /* no puedo hacer click en los laterales */
+    background-color: black;
+    height: calc(100vh - var(--navbar-height));
+    opacity: 0.85;
+  }
+  /* abierto */
+  #burger-checkbox-detail:checked ~ .navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: black;
     height: calc(100vh - var(--navbar-height));
     opacity: 0.85;
   }
   
   .navbar-item a {
-    /* display: flex;
-    justify-content: center; */
     color: azure;
     display: block;
     text-align: center;
@@ -72,7 +76,36 @@
     font-size: 2rem;
   }
 
-  
+  .form-bar{
+    padding-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+  .srchbar{
+    text-align: left;
+    margin-top: 0rem;
+    padding: 0 1rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    size: 30;
+}
+
+  .btn-search{
+      width: 3rem;
+      height: 3rem;
+      margin-top: 0rem;
+      }
+
+  .img-salir{
+      width: 3rem;
+      height: 3rem;
+      margin-right: 1rem; 
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+        
+  }
   
   @media (min-width: 768px) {
     .navbar {
@@ -98,37 +131,38 @@
       line-height: var(--navbar-height);
       padding: 0 1rem;
     }
+    .form-bar{
+      padding-top: 0rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;  
+    }
+    .srchbar{
+      text-align: left;
+      margin-top: 0rem;
+      padding: 0 1rem;
+      font-size: 2rem;
+      }
+    
+    .btn-search{
+      width: 1.3rem;
+      height: 1.3rem;
+      margin-top: 0rem;
+      }
+  
+    .img-salir{
+      width: 1.3rem;
+      height: 1.3rem;
+      margin-right: 1rem; 
+      margin-left: 1rem;
+      margin-top: 0.5rem;    
+    }
     
   }
   
-  .form-bar{
-      padding-top: 0rem;
-      display: flex;
-      /* overflow: hidden; */
-      align-items: center;
-      
-  }
-  .srchbar{
-    text-align: left;
-    margin-top: 0rem;
-    padding: 0 1rem;
-    font-size: 1rem;
-    }
-
-    .btn-search{
-        width: 1.3rem;
-        height: 1.3rem;
-        margin-top: 0rem;
-        }
-
-    .img-salir{
-        width: 1.3rem;
-        height: 1.3rem;
-        margin-right: 1rem; 
-        margin-left: 1rem;
-        margin-top: 0.5rem;
-          
-    }
+  
+  
 
   @media (min-width: 768px) and (max-width: 900px) {
     .navbar .logo {
