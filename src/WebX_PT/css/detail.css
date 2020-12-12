@@ -1,5 +1,48 @@
 .body-detail {
-    margin-top: var(--navbar-height);
+    /* margin-top: var(--navbar-height); */
     padding-top: var(--navbar-height);
     padding-bottom: 3rem;
   }
+
+.trailer{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trailer p{
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 90%;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .trailer p{
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+  }
+
+}
