@@ -50,24 +50,24 @@ Esta será la pantalla principal del contenido que contendrá, como mínimo, los
 
 1. Un menú superior que deberá incluir el logotipo de la plataforma, opciones para acceder a las diferentes secciones, según las clasifiquemos, un formulario de búsqueda y la opción para poder cerrar la sesión.
 	* Se ha creado una barra de menú que contiene todos los enlaces a las diferentes secciones y páginas.
-	* Hemos añadido nuestro logo en formato imágen en la parte izquierda de la barra.
+	* Hemos añadido nuestro logo en formato imágen en la parte superior izquierda de la barra.
 	* Se ha añadido un formulario de búsqueda con el input tipo type="search" y a continuación un botón en forma de imágen (lupa), para poder ejecutar la búsqueda.
 	* A continuación, hemos situado un botón en formato imàgen (exit), que nos llevará a la página de login.
 	* Todas estas opciones y la propia barra, las hemos adaptado para que se comporten de distinta forma cuando la visualización se realiza en pantallas pequeñas o bien en un dispositivo móvil.
 	
-2. Una rejilla de películas o series de forma que en cada elemento se muestre uan miniatura de esta. Además, al situar el ratón encima, se mostrará sobre la miniatura información adicional sobre la película o serie.
-	* En este punto, hemos creado cuatro secciones para agrupar las diferentes clasificaciones de película y en cada sección hemos añadido cinco carátulas de películas.
-	* Al situarnos con el ratón encima de cada carátula, se nos mostrará encima de cada una de ellas toda la infomación referente a la película. Todas las informaciones son reales y corresponden a cada una de las películas.
-	* Para esta visualización de información hemos utilizado transiciones para hacerlas mas suaves a la hora de hacerlas visibles.
+2. Una rejilla de películas o series de forma que en cada elemento se muestre una miniatura de esta. Además, al situar el ratón encima se mostrará, sobre la miniatura, información adicional sobre la película o serie.
+	* En este punto, hemos creado cuatro secciones para agrupar las diferentes clasificaciones de películas y en cada sección hemos añadido cinco carátulas de película.
+	* Al situarnos con el ratón encima de cada carátula, se mostrará toda la infomación referente a la película. Todas las informaciones son reales y corresponden a cada una de las películas.
+	* Para esta visualización de información hemos utilizado transiciones, así conseguimos mas suavidad a la hora de hacerlas visibles.
 	* La información mostrada ocupa el espacio de la imagen y para poder dar toda la información se ha activado el scroll para moverse sobre ella y no perderse detalle.
 	* Se ha hecho una adaptación, a través de "Media Query", sobre la visualización de esta página para dispositivos móviles.
 		- El carrusel de imágenes de películas hacemos que se visualice en vertical y cada imágen ocupa el ancho de la pantalla.
 		- El detalle/información de cada película se muestra al final de cada imágen de forma fija y en fondo negro.
 3. Cada película o serie contendrá un icono que permitirá marcarla como favorita. Si está marcada como favorita, el icono se mostrará de forma distinta, de manera que se distinga fácilmente el contenido favorito del resto.
 	* En este punto hemos añadido una estrella amarilla en la parte superior derecha de cada película favorita. Las no favoritas no tinen nada.
-	* Para jugar un poco, hemos provocado que cuando te situas con el ratón encima de cada estrella, esta de desvanece.
+	* Para jugar un poco, hemos provocado que cuando te situas con el ratón encima de cada estrella, esta se desvanece.
 4. Opcionalmente, se pide un carrusel de gran tamaño con el contenido destacado.
-	* En este punto, hemos situado una imágen fija que ocupa todo el ancho de la pantalla y además hemos incluido un texto. La encontraremos  en el inicio y el final de la página.
+	* En este punto, hemos situado una imagen fija que ocupa todo el ancho de la pantalla y además hemos incluido un texto. La encontraremos en el inicio y el final de la página.
 
 Para acceder al detalle de cada película, según el siguiente punto, lo haremos haciendo click sobe cada una de las carátulas de nuestra página. Esto funciona igual para móviles.
 
@@ -103,7 +103,7 @@ Una ficha detalle de la película/serie. Deberá contener al menos:
 	* Tal y como se pide en la práctica, el video está en local y se reproduce en la propia página sin incrustar iframes ni objects.
 	* En nuestro caso hemos jugado con carátula a primera vista y video al pulsar sobre ella. ("poster").  
 4. Rejilla con contenido relacionado, que se usará para los episodios en el caso de una serie o para películas similares.
-	* A continuación de la información básica de la película, hemos situado una rejilla con las películas relacionadas, aplicando el mismo estilo que en la página principal incluido el enlace al detalle donde se muestra el trailer.
+	* A continuación de la información básica de la película, hemos situado una rejilla con las películas relacionadas, aplicando el mismo estilo y funcionalidad que en la página principal, incluido el enlace al detalle donde se muestra el trailer.
 	* Esto también se ha hecho para la versión de móvil.
 
 Incluimos capturas de pantalla de la página detalle.
@@ -118,9 +118,10 @@ Incluimos capturas de pantalla de la página detalle.
 
 #### Pantalla 4ª (Opcional)
 Crear una página de error 404 y la facilidad para el usuario de poder regresar a nuestra web.
-	* Hemos creado una página de error 404 que se puede acceder a través de la oción "Extras" de la barra de menú de la página principal y la de detalle.
-	* Se ha incluido un boton para que el usuario pueda volver a la página principal de nuestra web.
-	* En el color de fondo de la página hemos aplicado un degradado.
+
+* Hemos creado una página de error 404 que se puede acceder a través de la oción "Extras" de la barra de menú de la página principal y la de detalle.
+* Se ha incluido un botón para que el usuario pueda volver a la página principal de nuestra web.
+* En el color de fondo de la página hemos aplicado un degradado.
 
 Adjuntamos captura de pantalla:
 
