@@ -30,7 +30,7 @@ https://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-
 }
 
 .close {
-	background: #606061;
+	background: lightsalmon;
 	color: #FFFFFF;
 	line-height: 25px;
 	position: absolute;
@@ -44,7 +44,7 @@ https://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-
 	box-shadow: 1px 1px 3px #000;
 }
 
-.close:hover { background: darkblue; }
+.close:hover { background: orangered; }
 
 .recupera-psw{
     color: darkblue;

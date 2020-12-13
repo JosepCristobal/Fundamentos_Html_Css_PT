@@ -107,6 +107,7 @@
         
   }
   
+  /* Adaptamos los diferentes elementos para que se comporten de forma distina en pantallas a partir de 768px */
   @media (min-width: 768px) {
     .navbar {
       display: flex;
@@ -160,11 +161,4 @@
       margin-top: 0.5rem;    
     }
     
-  }
-
-
-  @media (min-width: 768px) and (max-width: 900px) {
-    .navbar .logo {
-      color: darkblue;
-    }
   }

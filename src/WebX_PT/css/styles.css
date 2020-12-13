@@ -21,7 +21,6 @@ html {
 
   .main {
     max-width: var(--max-width);
-    /* margin: 0 auto; */
   }
   
   .section {
@@ -48,7 +47,5 @@ html {
     line-height: 0.25rem;
     background-color:rgb(95, 97, 230);
     color: white;
-    text-align: center;
-    
-    
+    text-align: center; 
  }
