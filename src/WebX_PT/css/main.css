@@ -33,7 +33,7 @@
 
 #espectaculo{
  background-color:transparent;
- transform: translate(0%,-750%);
+ transform: translate(0%,-500%);
  font-weight: bold;
  text-align: center;
  font-size: 2rem;
@@ -160,6 +160,16 @@ strong{
     justify-content: space-between;
   }
   
+  #espectaculo{
+    background-color:transparent;
+    transform: translate(0%,-750%);
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+   
+   }
+
   .imagen-ppal{
     height: 500px;
     align-items: center;
