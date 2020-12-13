@@ -131,7 +131,15 @@ Adjuntamos captura de pantalla:
 
 #### Pantalla 5ª (Opcional)
 Página de Coming Soon que incluya un contador de días, horas, minutos y segundos, la fecha de lanzamiento y un formulario para inscribirse a las novedades. 
-	* A este punto ya no he podido llegar
+
+* A este punto ya no he podido llegar.
+
+
+## Conclusión final
+
+Esperamos que con este MVP convenzamos a algún inversor para que apueste por nuestro proyecto.
+
+Muchas gracias Tony por todo.
 
 
 
